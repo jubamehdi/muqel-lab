@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { MenuComponent } from './components/menu/menu.component';
+import { MenuComponent } from './menu/menu.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccountComponent } from './account/account.component';
-import { InscriptionComponent } from './inscription/inscription.component';
-import { ConnexionComponent } from './inscription/connexion/connexion.component';
+import { InscriptionComponent } from './insc-con/inscription/inscription.component';
+import { ConnexionComponent } from './insc-con/connexion/connexion.component';
 import { InscConComponent } from './insc-con/insc-con.component';
 
 
