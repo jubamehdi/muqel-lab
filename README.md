@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # MuqelLab
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
@@ -25,7 +25,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# muqel-lab
->>>>>>> 2ce477b6697e4cc8fa6b2e2c8595aa38c48876f3
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README]
