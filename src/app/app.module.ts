@@ -10,7 +10,16 @@ import { AccountComponent } from './account/account.component';
 import { InscriptionComponent } from './insc-con/inscription/inscription.component';
 import { ConnexionComponent } from './insc-con/connexion/connexion.component';
 import { InscConComponent } from './insc-con/insc-con.component';
+import { RouterModule, Routes } from '@angular/router';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
+const appRoutes: Routes = [
+  { path: '', component: WelcomeComponent },
+  { path: 'singun', component: InscriptionComponent },
+  { path: 'login', component: ConnexionComponent},
+  { path: '**', component: PageNotFoundComponent }
+];
 
 @NgModule({
   declarations: [
@@ -21,10 +30,13 @@ import { InscConComponent } from './insc-con/insc-con.component';
     AccountComponent,
     InscriptionComponent,
     ConnexionComponent,
-    InscConComponent
+    InscConComponent,
+    PageNotFoundComponent,
+    WelcomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
